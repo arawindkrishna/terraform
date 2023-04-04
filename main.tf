@@ -1,5 +1,6 @@
 provider "aws" {
   region     = "us-east-1"
+  profile = "api-user"
 }
 
 resource "aws_instance" "first_machine" {
