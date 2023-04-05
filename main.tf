@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "first_machine" {
-  ami           = "ami-00c39f71452c08778"
+  ami           = "ami-02f97949d306b597a"
   instance_type = "t2.micro"
   tags = {
     "Name" = var.tag_name
