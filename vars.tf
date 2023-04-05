@@ -3,4 +3,8 @@ variable "tag_name" {
   default     = "my-Terraform_ec2-instance-from-jenkins"
 }
 
+variable "region" {
+  description = "region"
+  default     = "us-east-2"
+}
 
